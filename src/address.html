@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no"/>
+    <title>行橙游学</title>
+    <link rel="stylesheet" href="css/address.css">
+</head>
+<body>
+
+<section class="address">
+    <div class="address-word">
+        <i class="add-return">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+        <label>地址</label>
+    </div>
+    <div class="address-seach">
+        <div class="address-con">
+            <i class="search-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+            <input type="text" placeholder="请输入地址">
+        </div>
+    </div>
+</section>
+
+<section class="cur-city">
+    <div class="cur-city-word">当前定位城市</div>
+    <div class="cur-city-name">汕头</div>
+</section>
+
+<section class="hot-city">
+    <div class="hot-city-word">热门城市</div>
+    <div class="hot-city-name">
+        <div class="city-line"><label>广州</label><label>上海</label><label>广州</label><label>杭州</label></div>
+        <div class="city-line"><label>深圳</label><label>南京</label><label>成都</label><label>武汉</label></div>
+        <div class="city-line"><label>北京</label><label>重庆</label><label>济南</label><label>厦门</label></div>
+    </div>
+</section>
+
+<nav>
+    <label><i class="home-touch">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></label>
+    <label><i class="browse">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></label>
+    <label><i class="footprint">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></label>
+    <label><i class="self">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></label>
+</nav>
+
+<script src="js/ad/vendor/jquery.min.js"></script>
+<script>
+
+    //解决安卓机的软键盘把flex导航栏顶上去
+    (function () {
+        var allHeight = window.innerHeight;
+
+        setInterval(function () {
+            if (allHeight != window.innerHeight){
+                $("nav").css("display","none");
+            }else {
+                $("nav").css("display","flex");
+            }
+        },0)
+    })();
+
+</script>
+
+</body>
+</html>

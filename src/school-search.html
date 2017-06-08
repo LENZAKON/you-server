@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no"/>
+
+    <title>行橙游学</title>
+    <link rel="stylesheet" href="css/school-search.css">
+</head>
+<body>
+
+<section class="sch-search">
+    <i class="add-return">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+    <div class="add-search">
+        <div class="address-con">
+            <i class="search-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+            <input type="text" value="汕头">
+        </div>
+    </div>
+    <label class="search-word">搜索</label>
+</section>
+
+<section class="near-school">
+    <div class="near-school-word">附近大学</div>
+    <div class="school-item" style="display: none">
+        <div class="icon">
+            <i class="search-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+        </div>
+        <div class="school-info">
+            <label class="school-name"><i>汕</i><i>头</i><i>大</i><i>学</i></label>
+            <label class="school-feature">&nbsp;广东省211</label>
+            <label class="school-index">汕头/金平区</label>
+        </div>
+    </div>
+    <div class="school-item" style="display: none">
+        <div class="icon">
+            <i class="search-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+        </div>
+        <div class="school-info">
+            <label class="school-name"><i>汕</i><i>头</i><i>职</i><i>业</i><i>技</i><i>术</i><i>学</i><i>院</i></label>
+            <label class="school-feature"></label>
+            <label class="school-index">汕头/濠江区</label>
+        </div>
+    </div>
+    <div class="school-item" style="display: none">
+        <div class="icon">
+            <i class="search-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+        </div>
+        <div class="school-info">
+            <label class="school-name"><i>韩</i><i>山</i><i>师</i><i>范</i><i>学</i><i>院</i></label>
+            <label class="school-index">潮州/金平区</label>
+        </div>
+    </div>
+</section>
+
+
+<section class="address">
+    <div class="address-item">
+        <div class="add-icon">
+            <i class="address-icon">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+        </div>
+        <div class="address-info">
+            <label class="address-name"><i>汕</i><i>头</i></label>
+            <label class="address-index">广东省/汕头</label>
+        </div>
+    </div>
+</section>
+
+
+<nav>
+    <label><i class="home-touch">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></label>
+    <label><i class="browse">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></label>
+    <label><i class="footprint">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></label>
+    <label><i class="self">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></label>
+</nav>
+
+<script src="js/ad/vendor/jquery.min.js"></script>
+<script src="js/school-search.js"></script>
+<script>
+
+    //解决安卓机的软键盘把flex导航栏顶上去
+    (function () {
+        var allHeight = window.innerHeight;
+
+        setInterval(function () {
+            if (allHeight != window.innerHeight){
+                $("nav").css("display","none");
+            }else {
+                $("nav").css("display","flex");
+            }
+        },0)
+    })();
+
+</script>
+
+
+</body>
+</html>

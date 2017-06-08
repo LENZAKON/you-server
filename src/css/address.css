@@ -1,0 +1,218 @@
+
+
+body{
+    background-color: #EFEFF4;
+    padding: 0;
+    margin: 0;
+    font-family: PingFangSC-Regular, sans-serif;
+}
+
+.address-word{
+    background-color: rgb(43,184,154);
+    display: inline-block;
+    justify-content: center;
+    height: 6.5rem;
+    width: 100%;
+    color: #FFFFFF;
+    line-height: 6.5rem;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.add-return{
+    display: inline-block;
+    background: url("../img/return.png") no-repeat 0px 0px;
+    position: relative;
+    top: 1.75rem;
+    float: left;
+    left: 2rem;
+}
+
+.add-return label{
+    /*width: 90%;*/
+    /*display: inline-block;*/
+    /*text-align: center;*/
+    /*position: absolute;*/
+    /*left: 35%;*/
+    /*margin-left: 30%;*/
+
+
+}
+
+.address-seach{
+    background-color: rgb(241,246,241);
+    display: inline-block;
+    height: 7rem;
+    width: 100%;
+    /*line-height: 5.5rem;*/
+}
+
+.address-con{
+    display: inline-block;
+    width: 85%;
+    margin-left: 7%;
+    margin-top: 1.5%;
+    border: 1px solid #d5d5d5;
+}
+
+.address-con .search-icon{
+    background: url("../img/search.png") no-repeat 0 0px;
+    display: inline-block;
+    line-height: 3rem;
+    width: 48px;
+    padding: 0.5rem 0 0rem 0.5rem;
+    margin-left: 0.5rem;
+
+}
+
+
+.address-seach input{
+    background-color: rgb(241,246,241);
+    outline: none;
+    border: 1px solid transparent;
+    height: 3.5rem;
+    font-size: 24px;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    color: #9B9B9B;
+    line-height: 3.5rem;
+    display: inline-block;
+    width: 90%;
+    /*margin-left: 7%;*/
+    /*margin-top: 1.5%;*/
+}
+
+.search{
+
+}
+
+.cur-city{
+    margin-top: 1.5rem;
+    background-color: rgb(241,246,241);
+    height: 11rem;
+}
+
+.cur-city .cur-city-word{
+    display:block;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    border-bottom: 0.5px solid #c3c3c3;
+    padding-left: 20px;
+    font-weight: 400;
+    color: #888888;
+}
+
+.cur-city .cur-city-name{
+    font-size: 2.7rem;
+    height: 7rem;
+    line-height: 7rem;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.hot-city{
+    margin-top: 1.5rem;
+    background-color: rgb(241,246,241);
+    height: 25rem;
+}
+
+.hot-city .hot-city-word{
+    display:block;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    padding-left: 20px;
+    font-weight: 400;
+    color: #888888;
+}
+
+.hot-city .hot-city-name .city-line{
+    border-top: 0.5px solid #c3c3c3;
+    display: block;
+    height: 7rem;
+    line-height: 7rem;
+    font-weight: bold;
+    font-size: 36px;
+    color: #F6A623;
+    width: 100%;
+}
+
+.city-line label{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+/*导航栏*/
+nav{
+    border-top: 1px solid #e3e3e3;
+    background-color: white;
+    position: fixed;bottom: 0;width:100%;
+    height: 8rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav label{
+    width: 12rem;
+    text-align: center;
+}
+
+nav label span{
+    font-size: 1.5rem;
+    width: 6rem;
+    display: inline-block;
+    position: relative;
+    top: 3rem;
+    right: 1rem;
+    margin-top: 0.5rem;
+}
+
+nav label i{
+    font-style: normal;
+    display: inline-block;
+    height: 6rem;
+    width: 6rem;
+    margin-top: 0.8rem;
+}
+
+.self{
+    background: url("../img/客服1.png") no-repeat 0px 8px;
+    background-size: 3.8rem;
+}
+.self-touch{
+    background: url("../img/客服点击.png") no-repeat 0 8px;
+    background-size: 3.8rem;
+}
+
+
+.home{
+    background: url("../img/首页.png") no-repeat 0 8px;
+    background-size: 4rem;
+}
+.home-touch{
+    background: url("../img/首页单击.png") no-repeat 0px 8px;
+    background-size: 4rem;
+}
+
+.browse{
+    background: url("../img/逛一逛.png") no-repeat 0px 8px;
+    background-size: 4rem;
+}
+.browse-touch{
+    background: url("../img/逛一逛点击.png") no-repeat 0px 8px;
+    background-size: 4rem;
+}
+
+.footprint{
+    background: url("../img/我的足迹.png") no-repeat 0px 8px;
+    background-size: 5.6rem;
+}
+.footprint-touch{
+    background: url("../img/我的足迹单击.png") no-repeat 0px 8px;
+    background-size: 5.6rem;
+}
+

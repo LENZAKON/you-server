@@ -1,0 +1,159 @@
+body{
+    background-color: #EFEFF4;
+    padding: 0;
+    margin: 0;
+    font-family: PingFangSC-Regular, sans-serif;
+}
+
+.detial-word{
+    background-color: rgb(43,184,154);
+    display: inline-block;
+    justify-content: center;
+    height: 6.5rem;
+    width: 100%;
+    color: #FFFFFF;
+    line-height: 6.5rem;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.detial-return{
+    display: inline-block;
+    background: url("../img/return.png") no-repeat 0px 0px;
+    position: relative;
+    top: 1.75rem;
+    float: left;
+    left: 2rem;
+}
+
+.school-simple-info{
+    background-color: rgb(241,246,241);
+    /*border-bottom: 1px solid #c3c3c3;*/
+    display: inline-block;
+    height: 16rem;
+    width: 100%;
+}
+
+.school-img{
+    display: inline-block;
+    width: 27%;
+    float: left;
+}
+
+.school-img img{
+    width: 11rem;
+    padding: 1rem;
+}
+
+.school-mes{
+    display: inline-block;
+    height: 15rem;
+    display: block;
+}
+
+.school-mes .school-name{
+    font-size: 3.2rem;
+    /*height: 7rem;*/
+    /*line-height: 7rem;*/
+    margin-left: 20px;
+    font-weight: bold;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.school-mes .school-feature{
+    background-color: rgb(43,184,154);
+    display: inline-block;
+    color: #F2F6F4;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    font-size: 20px;
+    border-radius: 10px;
+    /*padding: 0 5px 0 5px;*/
+    margin-left: 10px;
+}
+
+.school-mes .school-index{
+
+    font-size: 2.8rem;
+    word-wrap: break-word;
+    word-break: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    padding: 0 0 0 20px;
+    margin: 0;
+    color: grey;
+    position: relative;
+    top: 2rem;
+    left: 1.2rem;
+    width: 40rem;
+}
+
+/*学校详细信息*/
+.school-detail-info{
+    background-color: rgb(241,246,241);
+    padding: 0px 70px 0px 70px;
+    position: relative;
+    /*top: -2.2rem;*/
+}
+
+.school-detail-info .tittle{
+    font-size: 2.8rem;
+    color: #333333;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+.school-detail-info .content{
+    font-size: 35px;
+    color: #A2A7A8;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.school-detail-info .icon{
+    display: flex;
+    justify-content: center;
+}
+
+.school-detail-info .more-icon{
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    background: url("../img/更多.png") no-repeat 0px 0px;
+    position: relative;
+    top: 0rem;
+}
+
+/*定制按钮*/
+
+.custom-made{
+    display: flex;
+    justify-content: center;
+    position: fixed;bottom: 0;width:100%;
+}
+
+.made-btn{
+    background-color: rgb(43,184,154);
+    width: 27rem;
+    height: 6rem;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.made-btn label{
+    display: inline-block;
+    width: 27rem;
+    line-height: 6rem;
+    text-align: center;
+    height: 6rem;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+

@@ -1,0 +1,239 @@
+
+body{
+    background-color: #EFEFF4;
+    padding: 0;
+    margin: 0;
+}
+
+.address{
+    display: inline-block;
+    height: 6.5rem;
+    background-color: rgb(43,184,154);
+    color: white;
+    width: 100%;
+    font-weight: 400;
+    font-size: 2.7rem;
+}
+
+.curren-add{
+    display: inline-block;
+    height: 4rem;
+    line-height: 4rem;
+    background-color: rgb(122,149,126);
+    border: 1px solid rgb(122,149,126);
+    width: 18%;
+    border-radius: 30px;
+    margin: 1rem;
+}
+
+.curren-add .add-icon{
+    background: url("../img/add.png") no-repeat 0 0px;
+    position: relative;
+    left: 1rem;
+}
+
+.curren-add label{
+    display: inline-block;
+    font-size: 30px;
+    color: #ffffff;
+    height: 4rem;
+    line-height: 3rem;
+}
+
+.add-search{
+    display: inline-block;
+    width: 60%;
+    background-color: rgb(241,246,241);
+    border-radius: 30px;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.address-con .search-icon{
+    background: url("../img/search.png") no-repeat 0 0px;
+    display: inline-block;
+    line-height: 3rem;
+    width: 48px;
+    margin-left: 1rem;
+}
+
+.address-con input{
+
+    outline: none;
+    border: 1px solid transparent;
+    background-color: rgb(241,246,241);
+    font-size: 24px;
+    color: #9b9b9b;
+    display: inline-block;
+    height: 2.4rem;
+    position: relative;
+    top: -0.3rem;
+    width: 75%
+}
+
+.search-word{
+    color: #ffffff;
+    font-size: 30px;
+    display: inline-block;
+    height: 4rem;
+    line-height: 4rem;
+    position: relative;
+    top: -0.2rem;
+    margin-left: 10px;
+}
+
+
+/*附近大学*/
+.near-school{
+    background-color: rgb(241,246,241);
+    position: relative;
+    top: -2.05rem;
+}
+
+.near-school .near-school-word{
+    display:block;
+    height: 4rem;
+    line-height: 55px;
+    font-size: 20px;
+    border-bottom: 1px solid #c3c3c3;
+    padding-left: 20px;
+    font-weight: 400;
+    color: #A2A7A8;
+}
+
+.school-item{
+    border-bottom: 1px solid #c3c3c3;
+    display: inline-block;
+    height: 200px;
+    width: 100%;
+}
+
+.school-img{
+    display: inline-block;
+    width: 218px;
+    float: left;
+}
+
+.school-img img{
+    width: 148px;
+    height: 160px;
+    padding: 17px 35px 17px 35px;
+}
+
+.school-info{
+    display: inline-block;
+    height: 15rem;
+    display: block;
+
+}
+
+.school-info .school-name{
+    font-size: 36px;
+    color: #49494F;
+    /*height: 7rem;*/
+    /*line-height: 7rem;*/
+    margin-left: 20px;
+    font-weight: bold;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.school-info .school-feature{
+    background-color: rgb(43,184,154);
+    display: inline-block;
+    color: #F2F6F4;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    font-size: 20px;
+    border-radius: 10px;
+    /*padding: 0 5px 0 5px;*/
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+.school-info .school-intruduce{
+
+    font-size: 20px;
+    word-wrap: break-word;
+    word-break: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    padding: 0 0 0 20px;
+    color: grey;
+    letter-spacing: 2px;
+    width: 600px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+/*导航栏*/
+nav{
+    border-top: 1px solid #e3e3e3;
+    background-color: white;
+    position: fixed;bottom: 0;width:100%;
+    height: 8rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav label{
+    width: 12rem;
+    text-align: center;
+}
+
+nav label span{
+    font-size: 1.5rem;
+    width: 6rem;
+    display: inline-block;
+    position: relative;
+    top: 3rem;
+    right: 1rem;
+    margin-top: 0.5rem;
+}
+
+nav label i{
+    font-style: normal;
+    display: inline-block;
+    height: 6rem;
+    width: 6rem;
+    margin-top: 0.8rem;
+}
+
+.self{
+    background: url("../img/客服1.png") no-repeat 0px 8px;
+    background-size: 3.8rem;
+}
+.self-touch{
+    background: url("../img/客服点击.png") no-repeat 0 8px;
+    background-size: 3.8rem;
+}
+
+
+.home{
+    background: url("../img/首页.png") no-repeat 0 8px;
+    background-size: 4rem;
+}
+.home-touch{
+    background: url("../img/首页单击.png") no-repeat 0px 8px;
+    background-size: 4rem;
+}
+
+.browse{
+    background: url("../img/逛一逛.png") no-repeat 0px 8px;
+    background-size: 4rem;
+}
+.browse-touch{
+    background: url("../img/逛一逛点击.png") no-repeat 0px 8px;
+    background-size: 4rem;
+}
+
+.footprint{
+    background: url("../img/我的足迹.png") no-repeat 0px 8px;
+    background-size: 5.6rem;
+}
+.footprint-touch{
+    background: url("../img/我的足迹单击.png") no-repeat 0px 8px;
+    background-size: 5.6rem;
+}
