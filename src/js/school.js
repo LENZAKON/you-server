@@ -10,7 +10,7 @@ SchoolDetial.prototype = {
         var moreIcon = document.getElementsByClassName("more-icon")[0];
         moreIcon.addEventListener("click",function (e) {
             var target = e.target;
-            $(target.parentNode.parentNode.parentNode.getElementsByClassName("school-simple-info")[0]).css("display","none");
+            $(target.parentNode.parentNode.parentNode.getElementsByClassName("school-simple-info")[0]).slideUp();
             $(target.parentNode.parentNode.getElementsByClassName("school-more")[0]).slideDown();
             $(target).css("display","none");
         })
