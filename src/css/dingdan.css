@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EFEFF4;
+}
+
+/*标题*/
+.tittle{
+    border-bottom: 1px solid #e3e3e3;
+    background-color: #F2FBF9;
+    position: fixed;top: 0;width:100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 999;
+}
+
+.tittle div{
+    width: 50%;
+    font-size: 32px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.unselect{
+    color: #686868;
+}
+
+.select{
+    border-bottom: 1.5px solid #2ABB9C;
+    color: #2ABB9C;
+}
+
+/*导航栏*/
+nav{
+    border-top: 1px solid #e3e3e3;
+    background-color: white;
+    position: fixed;bottom: 0;width:100%;
+    height: 8rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav label{
+    width: 12rem;
+    text-align: center;
+}
+
+nav label span{
+    font-size: 1.5rem;
+    width: 6rem;
+    display: inline-block;
+    position: relative;
+    top: 3rem;
+    right: 1rem;
+    margin-top: 0.5rem;
+}
+
+nav label i{
+    font-style: normal;
+    display: inline-block;
+    height: 6rem;
+    width: 6rem;
+    margin-top: 0.8rem;
+}
+
+.self{
+    background: url("../img/客服1.png") no-repeat 0px 8px;
+    background-size: 3.8rem;
+}
+.self-touch{
+    background: url("../img/客服点击.png") no-repeat 0 8px;
+    background-size: 3.8rem;
+}
+
+
+.home{
+    background: url("../img/首页.png") no-repeat 0 8px;
+    background-size: 4rem;
+}
+.home-touch{
+    background: url("../img/首页单击.png") no-repeat 0px 8px;
+    background-size: 4rem;
+}
+
+.browse{
+    background: url("../img/逛一逛.png") no-repeat 0px 8px;
+    background-size: 4rem;
+}
+.browse-touch{
+    background: url("../img/逛一逛点击.png") no-repeat 0px 8px;
+    background-size: 4rem;
+}
+
+.footprint{
+    background: url("../img/我的足迹.png") no-repeat 0px 8px;
+    background-size: 5.6rem;
+}
+.footprint-touch{
+    background: url("../img/我的足迹单击.png") no-repeat 0px 8px;
+    background-size: 5.6rem;
+}
+
+.dingdan-items{
+    position: relative;
+    top: 82px;
+}
+
+.dingdan-item{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.dingdan-item .you-address{
+    background-color: #F2FBF9;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    color: #686868;
+}
+
+.unpay{
+    float: right;
+    color: #2ABB9C;
+}
+
+.haspay{
+    float: right;
+    color: #686868;
+}
+
+.person-info{
+    background-color: #fbf9f9;
+    height: 150px;
+    font-size: 20px;
+    color: #686868;
+    line-height: 36px;
+}
+
+.person-name{
+    padding-top: 25px;
+}
+
+.you-money{
+    float: right;
+}
+
+.ifBaoXian{
+    float: right;
+}
+
+.dingdan-item .calculate{
+    height: 80px;
+    background-color: #F2FBF9;
+}
+
+.calculate span {
+    float: right;
+    display: inline-block;
+    height: 60px;
+    width: 130px;
+    position: relative;
+    top: 10px;
+    left:130px;
+    opacity: 0;
+}
+
+.calculate .go-to-pay{
+    float: right;
+    display: inline-block;
+    height: 80px;
+    width: 130px;
+    background: url("../img/去付款.png") no-repeat;
+    position: relative;
+    top: 10px;
+    right:0px;
+}
+
+.calculate .no-comment{
+    float: right;
+    display: inline-block;
+    height: 80px;
+    width: 130px;
+    background: url("../img/评价.png") no-repeat;
+    position: relative;
+    top: 10px;
+    right:0px;
+}
+
+.calculate .has-comment{
+    float: right;
+    display: inline-block;
+    height: 80px;
+    width: 130px;
+    background: url("../img/已评价.png") no-repeat;
+    position: relative;
+    top: 10px;
+    right:0px;
+}
+
+.calculate .comment-tipe{
+    height: 80px;
+    line-height: 80px;
+    font-size: 20px;
+    color: #2ABB9C;
+}
+
+/*多页*/
+a,button,input,textarea,i{-webkit-tap-highlight-color: rgba(0,0,0,0);}
+

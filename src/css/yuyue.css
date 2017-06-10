@@ -1,0 +1,193 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #EFEFF4;
+}
+
+.yuyue-same{
+    display: inline-block;
+    height: 90px;
+    line-height: 90px;
+
+    border-bottom: 1px solid #bbbbbf;
+    width: 100%;
+    background-color: white;
+}
+
+label{
+    font-size: 34px;
+    color: #333333;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.yuyue-type{
+    /*height: 360px;*/
+}
+
+.yuyue-type-items label{
+    display: block;
+    font-size: 34px;
+    color: #2ABB9C
+}
+
+
+
+.yuyue-type-items{
+    background-color: white;
+    position: relative;
+    top: -1rem;
+}
+
+.yuyue-wechat{
+    border-top: 1px solid #bbbbbf;
+}
+
+input[type="text"]{
+    float: right;
+    outline: none;
+    display: inline-block;
+    height: 55px;
+    width: 76%;
+    border: 0px solid transparent;
+    position: relative;
+    top: 15px;
+    font-size: 34px;
+    margin-left: 30px;
+}
+
+.yuyue-same i{
+    float: right;
+    display: inline-block;
+    width: 5rem;
+}
+
+.phone-err{
+    background: url("../img/警示图标.png") no-repeat;
+    position: relative;
+    top: -68px;
+    right: 0;
+}
+
+.type-selete{
+    background: url("../img/游学类型图标.png") no-repeat;
+    position: relative;
+    top: 30px;
+    right: 0;
+}
+
+.type-selete-out{
+    background: url("../img/游学类型下拉图标.png") no-repeat;
+    position: relative;
+    top: 30px;
+    right: 0;
+}
+
+.yuyue-liuyan{
+    height: 380px;
+    border-bottom: 0;
+
+}
+textarea{
+    display: block;
+    font-size: 34px;
+    margin: 0 15% 0 15%;
+    border: 1px solid grey;
+}
+
+.yuyue{
+    border-top: 1px solid #bbbbbf;
+    background-color: #f7f7fc;
+}
+
+.yuyue-money{
+    display: inline-block;
+    margin-left: 100px;
+    height: 100px;
+}
+.yuyue-money label{
+    font-size: 40px;
+    font-weight: 400;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+.yuyue-money span{
+    font-size: 40px;
+    font-weight: 400;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+
+.tijiao-yuyue{
+    display: inline-block;
+    width: 305px;
+    background-color: #2ABB9C;
+    height: 100px;
+    float: right;
+}
+
+.tijiao-yuyue label{
+    margin-left: 0;
+    display: inline-block;
+    font-size: 40px;
+    color: #f7f7fa;
+    font-weight: 500;
+    width: 305px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+input[type="checkbox"]{
+    position: relative;
+    opacity: 0;
+    float: right;
+    width: 60px;
+    height: 80px;
+    left: 110px;
+    background-color: white;
+}
+
+a,button,input,textarea,i{-webkit-tap-highlight-color: rgba(0,0,0,0);}
+
+
+
+
+.unchoose{
+    background: url("../img/不买保险图标.png") no-repeat;
+    position: relative;
+    right: 30px;
+    top: 25px;
+}
+
+.choose{
+    background: url("../img/买保险图标.png") no-repeat;
+    position: relative;
+    right: 30px;
+    top: 25px;
+}
+.cicle{
+    background: url("../img/保险图标可拉动部分.png") no-repeat;
+    position: relative;
+    left: 35px;
+    top: 13px;
+}
+
+.uncicle{
+    background: url("../img/保险图标可拉动部分.png") no-repeat;
+    position: relative;
+    left: 65px;
+    top: 13px;
+}
+
+.yuyue-type span{
+    font-size: 34px;
+    color: #2ABB9C;
+    float: right;
+    display: inline-block;
+    height: 55px;
+    width: 67%;
+}

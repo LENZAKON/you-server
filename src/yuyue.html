@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no"/>
+    <title>确认预约</title>
+    <link rel="stylesheet" href="css/yuyue.css">
+</head>
+<body>
+
+<section class="yuyue-form">
+    <div class="yuyue-same yuyue-name">
+        <label>预约人</label>
+        <input type="text" placeholder="姓名">
+    </div>
+    <div class="yuyue-same yuyue-phone">
+        <label>电话号码</label>
+        <input type="text" placeholder="常用手机号码">
+        <i class="phone-err">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+    </div>
+    <div class="yuyue-same yuyue-address">
+        <label>地点确认</label>
+        <input type="text" placeholder="学校名称">
+    </div>
+    <div class="yuyue-same yuyue-type">
+        <label>游学类型</label>
+        <i class="type-selete">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+        <span></span>
+        <div class="yuyue-type-items" style="display: none">
+            <label>中小学体验游学</label>
+            <label>高中生择校游学</label>
+            <label>大学生专业社交游学</label>
+        </div>
+
+    </div>
+    <div class="yuyue-same yuyue-wechat">
+        <label>微信号</label>
+        <input type="text" placeholder="weixin">
+    </div>
+    <div class="yuyue-same yuye-baoxian">
+        <label>保险购买</label>
+        <i class="unchoose">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+        <i class="uncicle">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+        <input type="checkbox" class="buy-baoxian">
+    </div>
+    <div class="yuyue-same yuyue-liuyan">
+        <label>留言</label><br>
+        <textarea rows="6" cols="40"></textarea>
+    </div>
+</section>
+<section class="yuyue">
+    <div class="yuyue-money">
+        <label>合计:</label>
+        <span></span>
+    </div>
+    <div class="tijiao-yuyue">
+        <label>提交预约</label>
+    </div>
+</section>
+
+<script src="js/ad/vendor/jquery.min.js"></script>
+<script src="js/yuyue.js"></script>
+</body>
+</html>

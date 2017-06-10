@@ -28,11 +28,17 @@ indexSchool.prototype = {
         for (var i=0;i<schoolItems.length;i++){
             $(schoolItems[i]).on("click",function (e) {
                 var schoolName = $(this).find(".school-name").text();
-
-                //跳转到学校页面
-                window.location.href = "http://192.168.0.106:8080/YOUServer/src/school.html";
-                window.event.returnValue=false;
-
+                if (schoolName == "汕头大学"){
+                    //跳转到学校页面
+                    window.location.href = "shantouSchool.html";
+                    window.event.returnValue=false;
+                }else if (schoolName == "韩山师范学院"){
+                    window.location.href = "hanshiSchool.html";
+                    window.event.returnValue=false;
+                }else if (schoolName == "汕头职业技术学院"){
+                    window.location.href = "shanzhiyuanSchool.html";
+                    window.event.returnValue=false;
+                }
             })
         }
     }

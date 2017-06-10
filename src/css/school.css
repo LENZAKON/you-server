@@ -15,9 +15,9 @@ body, body * {
     justify-content: center;
     height: 6.5rem;
     width: 100%;
-    color: #FFFFFF;
+    color: #F9F8F8;
     line-height: 6.5rem;
-    font-size: 30px;
+    font-size: 37px;
     font-weight: 400;
     text-align: center;
 
@@ -34,9 +34,9 @@ body, body * {
 
 .school-simple-info{
     background-color: rgb(241,246,241);
-    /*border-bottom: 1px solid #c3c3c3;*/
+    border-bottom: 1px solid #c3c3c3;
     display: inline-block;
-    height: 16rem;
+    height: 186px;
     width: 100%;
 }
 
@@ -44,21 +44,25 @@ body, body * {
     display: inline-block;
     width: 27%;
     float: left;
+    height: 186px;
 }
 
 .school-img img{
-    width: 11rem;
-    padding: 1rem;
+    width: 9.5rem;
+    padding: 0.5rem 1rem 0rem 2.5rem;
 }
 
 .school-mes{
     display: inline-block;
     height: 15rem;
     display: block;
+    position: relative;
+    top: 1rem;
 }
 
 .school-mes .school-name{
-    font-size: 3.2rem;
+    font-size: 48px;
+    color: #38383c;
     /*height: 7rem;*/
     /*line-height: 7rem;*/
     margin-left: 20px;
@@ -81,7 +85,7 @@ body, body * {
 
 .school-mes .school-index{
 
-    font-size: 2.8rem;
+    font-size: 36px;
     word-wrap: break-word;
     word-break: normal;
     display: -webkit-box;
@@ -90,7 +94,7 @@ body, body * {
     overflow: hidden;
     padding: 0 0 0 20px;
     margin: 0;
-    color: grey;
+    color: #38383c;
     position: relative;
     top: 2rem;
     left: 1.2rem;
@@ -100,9 +104,9 @@ body, body * {
 /*学校详细信息*/
 .school-detail-info{
     background-color: rgb(241,246,241);
-    padding: 0px 70px 0px 70px;
+    padding: 0px 80px 0px 80px;
     position: relative;
-    /*top: -2.2rem;*/
+    top: 0.5rem;
 }
 
 .school-detail-info .school-more{
@@ -111,18 +115,51 @@ body, body * {
 
 
 .school-detail-info .tittle{
-    font-size: 45px;
-    color: #333333;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    padding-top: 20px;
+    font-size: 36px;
+    color: #38383c;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding-top: 35px;
 }
 
 .school-detail-info .content{
-    font-size: 35px;
+    font-size: 24px;
     color: #A2A7A8;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-height: 35px;
+
+}
+
+/*.school-introduce .content{*/
+    /*-webkit-line-clamp: 1;*/
+/*}*/
+
+.content-line1{
+    -webkit-line-clamp: 1;
+}
+.content-line2{
+    -webkit-line-clamp: 2;
+}
+.content-line3{
+    -webkit-line-clamp: 3;
+}
+.content-line4{
+    -webkit-line-clamp: 4;
+}
+
+
+
+.school-detail-info .total-content{
+    font-size: 24px;
+    color: #A2A7A8;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /*.school-more .tittle{*/
@@ -134,18 +171,30 @@ body, body * {
 /*}*/
 
 
-.school-detail-info .icon{
-    display: flex;
-    justify-content: center;
+ .icon{
+    /*display: flex;*/
+    /*justify-content: center;*/
+     /*background-color: rgb(241,246,241);*/
+     /*!*height: 20rem;*!*/
+     /*z-index: -1;*/
+     /*position: fixed;*/
+     /*bottom: 7rem;*/
+     display: flex;
+     justify-content: center;
+     position: fixed;bottom: 7rem;width:100%;
+     background-color: rgb(241,246,241);
+    /*padding-top: 3rem;*/
+     /*z-index: -1;*/
+
 }
 
-.school-detail-info .more-icon{
-    display: inline-block;
-    height: 4rem;
-    width: 4rem;
-    background: url("../img/更多.png") no-repeat 0px 0px;
+.more-icon{
+
+    height: 5.5rem;
+    width: 5.5rem;
+    background: url("../img/更多.png") no-repeat 25px 0px;
     position: relative;
-    top: 0rem;
+    top: 1.7rem;
 }
 
 /*定制按钮*/
@@ -159,20 +208,82 @@ body, body * {
 
 .made-btn{
     background-color: rgb(43,184,154);
-    width: 25rem;
-    height: 7rem;
+    width: 370px;
+    height: 100px;
     display: inline-block;
     border-radius: 15px;
 }
 
 .made-btn label{
     display: inline-block;
-    width: 25rem;
-    line-height: 7rem;
+    width: 370px;
+    line-height: 100px;
     text-align: center;
-    height: 7rem;
-    font-size: 3rem;
-    color: #FFFFFF;
+    height: 100px;
+    font-size: 40px;
+    color: #F7F7F7;
 }
 
+/*开始定制点击后*/
+.custom-made-form{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: fixed;bottom: 0;
+}
 
+.mengban{
+    width: 100%;
+    height: 63%;
+    display: inline-block;
+    background-color: #979797;
+    opacity: 0.29;
+}
+
+.custom-made-choose{
+    display: inline-block;
+    height: 39%;
+    width: 100%;
+    background-color: white;
+}
+
+.custom-made-form .cus-mad-name{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 40px;
+    border-bottom: 1px solid rgb(122,149,126);
+    margin: 0;
+    line-height: 8rem;
+    height: 8rem;
+}
+
+.custom-made-form .cus-mad-types-word{
+    display:inline-block;
+    height: 4rem;
+    font-size: 2rem;
+    color: rgb(122,149,126);
+    line-height: 4rem;
+    padding-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.cus-mad-type{
+    display: block;
+    height: 4rem;
+    font-size: 2.2rem;
+    color: rgb(43,184,154);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cus-mad-type label{
+    display: inline-block;
+    width: 19rem;
+    background-color: rgb(229,229,229);
+    height: 4rem;
+    line-height: 4rem;
+}
