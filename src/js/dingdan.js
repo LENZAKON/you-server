@@ -5,13 +5,14 @@
 function changeStatusChange() {
     var startX,startY,moveEndX,moveEndY,X,Y;
     $('#change').on('touchstart',function(e){
-        e.preventDefault();
+        //使得页面不能上下滚动
+        // e.preventDefault();
         startX = e.originalEvent.changedTouches[0].pageX;
         startY = e.originalEvent.changedTouches[0].pageY;
     });
 
     $('#change').on('touchmove',function(e){
-        e.preventDefault();
+        // e.preventDefault();
         moveEndX = e.originalEvent.changedTouches[0].pageX;
         moveEndY = e.originalEvent.changedTouches[0].pageY;
 
@@ -29,11 +30,25 @@ function changeStatusChange() {
             document.getElementsByClassName("tittle")[0].getElementsByClassName("all-dingdan")[0].className = "all-dingdan unselect";
             document.getElementsByClassName("tittle")[0].getElementsByClassName("wait-pay")[0].className = "wait-pay select";
 
-
         }
 
     });
 }
-
-
 changeStatusChange();
+
+var DingDan = function () {
+
+};
+
+DingDan.prototype = {
+    turnToIndex : function () {
+        var index = document.getElementsByTagName("nav")[0].getElementsByClassName("home")[0];
+        index.addEventListener("click",function (e) {
+            window.location.href = "index.html";
+            // window.event.returnValue=false;
+        })
+    }
+}
+
+var dingdan = new DingDan();
+dingdan.turnToIndex();

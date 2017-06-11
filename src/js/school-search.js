@@ -87,12 +87,26 @@ School.prototype = {
                 $(addressObj.addressItem[j]).css("display","none");
             }
         }
+    },
+    returnIndex: function () {
+        document.getElementsByClassName("add-return")[0].addEventListener("click",function (e) {
+            window.location.href = "index.html";
+        })
+    },
+    turnToDingdan:function () {
+        var footPrint = document.getElementsByTagName("nav")[0].getElementsByClassName("footprint")[0];
+        footPrint.addEventListener("click",function (e) {
+            window.location.href = "dingdan.html";
+            // window.event.returnValue=false;
+        })
     }
 }
 
 var schoolOperate = new School();
 schoolOperate.address();
 schoolOperate.school();
+schoolOperate.returnIndex();
+schoolOperate.turnToDingdan();
 
 setInterval(schoolOperate.addressInput,500);
 

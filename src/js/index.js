@@ -41,8 +41,34 @@ indexSchool.prototype = {
                 }
             })
         }
+    },
+    turnToDingdan: function () {
+        var footPrint = document.getElementsByTagName("nav")[0].getElementsByClassName("footprint")[0];
+        footPrint.addEventListener("click",function (e) {
+            window.location.href = "dingdan.html";
+            // window.event.returnValue=false;
+        })
+    },
+    turnAddress: function () {
+        document.getElementsByClassName("curren-add")[0].addEventListener("click",function (e) {
+            window.location.href = "address.html";
+        })
+    },
+    turnSchoolSearch:function () {
+
+        document.getElementsByClassName("address-con")[0].getElementsByTagName("input")[0].addEventListener('keypress',function(e){
+            if(e.keyCode === 13) {
+                window.location.href = "school-search.html";
+                window.event.returnValue=false;
+            }
+        });
+
     }
+
 }
 
 var inSch = new indexSchool();
 inSch.clickSchool();
+inSch.turnToDingdan();
+inSch.turnAddress();
+inSch.turnSchoolSearch();

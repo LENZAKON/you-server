@@ -56,9 +56,12 @@ SchoolDetial.prototype = {
                console.log(schoolName)
            })
        }
-   }
-
-
+   },
+    returnIndex: function () {
+        document.getElementsByClassName("detial-return")[0].addEventListener("click",function (e) {
+            window.location.href = "index.html";
+        })
+    }
 }
 
 var schDet = new SchoolDetial();
@@ -66,6 +69,7 @@ schDet.schoolMore();
 schDet.customMade();
 schDet.customMadeCancel();
 schDet.clickMade();
+schDet.returnIndex();
 
 function getElementTop(element){
     var actualTop = element.offsetTop;
