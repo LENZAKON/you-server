@@ -1,7 +1,38 @@
+@font-face {
+    font-family: "PingFang Bold";
+    src: url("../font/PingFang Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PingFang ExtraLight";
+    src: url("../font/PingFang ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PingFang Heavy";
+    src: url("../font/PingFang Heavy.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PingFang Light";
+    src: url("../font/PingFang Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PingFang Medium";
+    src: url("../font/PingFang Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PingFang Regular";
+    src: url("../font/PingFang Regular.ttf") format("truetype");
+}
+
 body{
     margin: 0;
     padding: 0;
     background-color: #EFEFF4;
+    font-family: "PingFang Regular";
 }
 
 /*标题*/
@@ -13,6 +44,7 @@ body{
     display: flex;
     justify-content: space-around;
     z-index: 999;
+    font-family: "PingFang Medium";
 }
 
 .tittle div{
@@ -123,11 +155,13 @@ nav label i{
 .unpay{
     float: right;
     color: #2ABB9C;
+    font-family: "PingFang Medium";
 }
 
 .haspay{
     float: right;
     color: #686868;
+    font-family: "PingFang Medium";
 }
 
 .person-info{
@@ -136,6 +170,7 @@ nav label i{
     font-size: 20px;
     color: #686868;
     line-height: 36px;
+    font-family: "PingFang Medium";
 }
 
 .person-name{
@@ -153,6 +188,7 @@ nav label i{
 .dingdan-item .calculate{
     height: 80px;
     background-color: #F2FBF9;
+
 }
 
 .calculate span {
@@ -199,11 +235,14 @@ nav label i{
     right:0px;
 }
 
+
+
 .calculate .comment-tipe{
     height: 80px;
     line-height: 80px;
     font-size: 20px;
     color: #2ABB9C;
+    font-family: "PingFang Light";
 }
 
 /*多页*/

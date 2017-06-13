@@ -1,8 +1,43 @@
 
+
+@font-face {
+    font-family: "PingFang Bold";
+    src: url("../font/PingFang Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PingFang ExtraLight";
+    src: url("../font/PingFang ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PingFang Heavy";
+    src: url("../font/PingFang Heavy.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PingFang Light";
+    src: url("../font/PingFang Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PingFang Medium";
+    src: url("../font/PingFang Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PingFang Regular";
+    src: url("../font/PingFang Regular.ttf") format("truetype");
+}
+
+
+
+
 body{
     background-color: #EFEFF4;
     padding: 0;
     margin: 0;
+    font-family: "PingFang Medium";
 }
 
 .address{
@@ -91,8 +126,10 @@ body{
 }
 
 .near-school .near-school-word{
+    font-family: "PingFang Medium";
+
     display:block;
-    height: 4rem;
+    height: 55px;
     line-height: 55px;
     font-size: 20px;
     border-bottom: 1px solid #c3c3c3;
@@ -128,6 +165,7 @@ body{
 }
 
 .school-info .school-name{
+    font-family: "PingFang Medium";
     font-size: 36px;
     color: #49494F;
     /*height: 7rem;*/

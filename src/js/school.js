@@ -61,6 +61,9 @@ SchoolDetial.prototype = {
         document.getElementsByClassName("detial-return")[0].addEventListener("click",function (e) {
             window.location.href = "index.html";
         })
+    },
+    turnPersonYuyue:function () {
+        document.getElementsByClassName("")
     }
 }
 
@@ -99,3 +102,4 @@ window.onload = function () {
         document.getElementsByClassName("school-introduce")[0].getElementsByClassName("content")[0].style.display = "none";
     }
 }
+
